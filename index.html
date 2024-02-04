@@ -1,21 +1,92 @@
-<html lang="ja-jp">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <nav>
-            <div class="logo">
-                <h1>
-                    <a href="/">Twisskey</a>
-                </h1>
-            </div>
-            <ul>
-                <li><a href="/about/">詳細を見る</a></li>
-                <li><a href="/download/">ダウンロード</a></li>
-                <li><a href="/other/">その他表示</a></li>
-            </ul>
-        </nav>
-    </body>
-</html>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="/twisskey.png">
+    <title>Twisskey - Misskeyクライアント</title>
+    <!-- 色指定css -->
+    <link rel="stylesheet" href="/css/color.css">
+    <!-- レイアウト指定css -->
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- 見え方統一css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- mdファイルをhtmlにブラウザ上で変えるやつ -->
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+    <!-- メインスクリプト -->
+    <script src="/js/main.js"></script>
+    <!-- MDファイル変換 -->
+    <script src="/js/mdfile.js"></script>
+</head>
+
+<body>
+    <noscript>
+        <h1 class="hover">このサイトでは女子小学生(JavaScript)を有効にしてください!!!</h1>
+    </noscript>
+
+    <div class="top">
+        <img class="tiicon" src="/twisskey.png" alt="TwisskeyIcon" width="200px">
+        <h1>Twisskey</h1>
+        <h3>某SNS風Misskeyクライアントアプリ</h3>
+        <h2><a href="https://github.com/Karatsu-5th-JHS/twisskey">GitHub</a></h2>
+        <br>
+    </div>
+
+    <div id="mainmd"></div>
+
+    <!-- <div class="about">
+        <h2>Twisskeyについて</h2>
+        <p>
+            Twisskeyは某SNS風Misskeyクライアントアプリです。
+            <br>
+            2024年1月25日現在、まだ一部のインスタンスでのみログイン可能としていますが、将来的にはどのインスタンスでもログイン可能になる予定です。
+        </p>
+        <br>
+    </div>
+    
+    <div class="possible">
+        <h2>できること</h2>
+        <li>ノート(投稿)</li>
+        <li>リノート</li>
+        <li>リアクション(現在はハートのみ)</li>
+        <li>画像の投稿(現在は同時に一つのみ)</li>
+        <li>画像のプレビュー</li>
+        <li>動画の再生</li>
+        <br>
+    </div>
+
+    <div class="impossible">
+        <h2>できないこと</h2>
+        <li>上に書いてないこと</li>
+        <br>
+    </div>
+
+    <div class="distribute">
+        <h2>配布</h2>
+        <p>
+            現在は、releaseのところからapkを落とすか、betaブランチから落として自分でビルドするか、Testflightに参加してiOSで利用するかの方法があります。
+            <br>
+            Testflightで利用を希望の場合は、Discordサーバーへの参加をしていただく必要があるため、別途お問い合わせください。
+        </p>
+        <br>
+    </div>
+
+    <div class="warn">
+        <h2>注意事項</h2>
+        <p>
+            このアプリは<strong>あくまでTwitter風</strong>です。Twitterではありません。やめてイーロン。こっちみないで。
+            <br>
+            できないことが多すぎて禿げてるので、とりあえず<strong>これはいるやろ</strong>といったものがあればIssueに投げておくと優先消化します。
+        </p>
+        <br>
+    </div>
+
+    <div class="thanks">
+        <h2>その他記載事項</h2>
+        <p>このアプリを作るにあたって、そらいろ様のMfm_parserを利用しております。ありがとうございます！<a href="https://pub.dev/packages/mfm_parser" target="_blank">Mfm_parser(pub.dev)</a></p>
+    </div> -->
+</body>

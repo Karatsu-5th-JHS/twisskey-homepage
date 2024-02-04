@@ -1,0 +1,58 @@
+/* 要素に色をつけるcss */
+
+body {
+    background-color: rgb(216, 237, 255);
+    color: var(--ch-color);
+}
+
+:root {
+    --nbg-color: white;
+    --nch-color: black;
+    --ch-color: black;
+    --ach-color: rgb(139, 139, 139);
+    --achh-color: rgb(77, 77, 77);
+    --tb-color: white;
+    --ic-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --nbg-color: black;
+        --nch-color: white;
+        --ch-color: white;
+        --ach-color: rgb(137, 137, 137);
+        --achh-color: rgb(220, 220, 220);
+        --tb-color: black;
+        --ic-color: white;
+    }
+
+    body {
+        background-color: rgb(6, 28, 32);
+    }
+
+    .icon {
+        filter: invert(100%);
+    }
+
+    .snsicon {
+        filter: invert(100%);
+    }
+}
+
+.hover {
+    background-color: white;
+    color: black;
+}
+
+.tiicon {
+    background-color: white;
+}
+
+a {
+    color: var(--ach-color);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:hover {
+    color: var(--achh-color);
+}

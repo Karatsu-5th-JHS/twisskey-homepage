@@ -1,0 +1,49 @@
+/* レイアウトなどを指定するcss */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP&display=swap');
+
+* {
+    transition: .5s;
+}
+
+body {
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Inter', 'Noto Sans JP', sans-serif;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    width: 90%;
+    margin: auto;
+}
+
+/* class */
+
+.hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.tiicon {
+    border-radius: 50px;
+}
+
+.top {
+    text-align: center;
+}
+
