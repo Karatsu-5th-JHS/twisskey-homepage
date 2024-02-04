@@ -1,0 +1,47 @@
+/** 
+* 注意
+* ページの読み込み時、かならずこのファイルを先に読み込んでください。
+*/
+
+@import url(/assets/styles/top.css);
+@import url(/assets/styles/button.css);
+@import url(/assets/styles/navigation.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap');
+:root{
+    --primary-color: rgb(107, 165, 227);
+    --secondary-color: rgb(64, 139, 219);
+    --action-color: rgb(150, 191, 235);
+    --focus-color: rgba(107, 165, 227, 0.3);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    font-family: 'Noto Sans JP';
+}
+
+.fs-1{
+    font-size: 1rem;
+}
+.fs-2{
+    font-size: 2rem;
+}
+.fs-3{
+    font-size: 3rem;
+}
+.fs-4{
+    font-size: 4rem;
+}
+.center{
+    text-align: center;
+}
+
+::-webkit-scrollbar{
+    width: 1px;
+}
+
+.serif{
+    font-family: 'Noto Serif JP';
+}

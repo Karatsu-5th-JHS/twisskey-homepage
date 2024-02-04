@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    height: 3rem;
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+    vertical-align: middle;
+}
+
+nav .logo{
+    margin: auto auto auto 0;
+}
+
+nav .logo h1{
+    margin: 0;
+}
+nav .logo h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,41 @@
+.btn{
+    display: inline-block;
+    position: relative;
+
+    margin: 5px;
+    padding: 5px 10px;
+
+    background-color: var(--primary-color);
+    color: white;
+    
+    text-decoration: none;
+    font-weight: 700;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.btn.btn-git{
+    background-color: black;
+}
+
+.btn label{
+    font-weight: 400;
+    position: relative;
+    font-size: .5em;
+    top: -2em;
+    cursor: pointer;
+}
+.btn:has(label){
+    padding: 1em 10px;
+}
+
+
+.btn label span{
+    position: relative;
+    font-size: 2em;
+    font-weight: 700;
+    top: 1.5em;
+    cursor: pointer;
+}

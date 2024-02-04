@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+
+.container *{
+    margin: 0;
+    padding: 0;
+}
+
+.container .summary{
+    position: relative;
+    height: calc(100vh - calc(3rem + 10px));
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+
+.container .summary .text{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+section{
+    margin: 10px!important;
+    padding: 10px 20px!important;
+}
+
+.label{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #008fff;
+    color: white;
+}
