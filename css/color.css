@@ -13,6 +13,8 @@ body {
     --achh-color: rgb(77, 77, 77);
     --tb-color: white;
     --ic-color: white;
+    --bg-top: rgb(255, 255, 255);
+    --bg-hov: rgb(163, 163, 163);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +26,8 @@ body {
         --achh-color: rgb(220, 220, 220);
         --tb-color: black;
         --ic-color: white;
+        --bg-top: rgb(50, 50, 50);
+        --bg-hov: rgb(163, 163, 163);
     }
 
     body {
@@ -39,6 +43,15 @@ body {
     }
 }
 
+a {
+    color: var(--ach-color);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:hover {
+    color: var(--achh-color);
+}
+
 .hover {
     background-color: white;
     color: black;
@@ -48,11 +61,19 @@ body {
     background-color: white;
 }
 
-a {
-    color: var(--ach-color);
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+.navbar {
+    background-color: var(--bg-top);
+    color: rgb(0, 0, 0);
 }
 
-a:hover {
-    color: var(--achh-color);
+.noli:hover {
+    background-color: var(--bg-hov);
+}
+
+.ova {
+    color: var(--ch-color);
+}
+
+.ova:hover {
+    color: var(--ch-color);
 }

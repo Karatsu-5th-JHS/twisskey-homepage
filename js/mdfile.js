@@ -45,11 +45,10 @@ notf().done(function (data, status, xhr) {
 }).fail(function (XMLHttpRequest, status, errorThrown) {
     document.getElementById("mainmd").innerHTML = `
 
-    <h2>Choose Language</h2>
-    <ul>
-        <li><a href="?jp">Japanese</a></li>
-        <li><a href="?en">English</a></li>
-    </ul>
+    <div class="center">
+        <img src="https://r2.tkngh.jp//e13f488d-eb56-4d31-9796-0d93adaf257e.webp" alt="blob">
+        <h1>なにか問題が発生したようだ</h1>
+    </div>
 
     `;
 });
