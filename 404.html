@@ -4,11 +4,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="/twisskey.png">
     <title>iframe</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+JP&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@100;200;300;400;500;600;700&display=swap');
 
     * {
         margin: 0;
@@ -18,7 +19,33 @@
     }
 
     body {
-        font-family: 'Inter', 'Noto Sans JP', sans-serif;
+        font-family: 'IBM Plex Sans JP', sans-serif;
+    }
+
+    :root {
+        --nbg-color: white;
+        --nch-color: black;
+        --ch-color: black;
+        --ach-color: rgb(139, 139, 139);
+        --achh-color: rgb(77, 77, 77);
+        --tb-color: white;
+        --ic-color: white;
+        --bg-top: rgb(255, 255, 255);
+        --bg-hov: rgb(163, 163, 163);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --nbg-color: black;
+            --nch-color: white;
+            --ch-color: white;
+            --ach-color: rgb(137, 137, 137);
+            --achh-color: rgb(220, 220, 220);
+            --tb-color: black;
+            --ic-color: white;
+            --bg-top: rgb(50, 50, 50);
+            --bg-hov: rgb(163, 163, 163);
+        }
     }
 
     iframe {
@@ -38,7 +65,8 @@
     }
 
     #hover {
-        background-color: white;
+        background-color: var(--bg-top);
+        color: var(--ch-color);
         position: absolute;
         top: 85%;
         left: 50%;

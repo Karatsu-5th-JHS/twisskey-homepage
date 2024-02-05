@@ -31,15 +31,7 @@ body {
     }
 
     body {
-        background-color: rgb(6, 28, 32);
-    }
-
-    .icon {
-        filter: invert(100%);
-    }
-
-    .snsicon {
-        filter: invert(100%);
+        background-color: rgb(44, 62, 77);
     }
 }
 
@@ -53,8 +45,8 @@ a:hover {
 }
 
 .hover {
-    background-color: white;
-    color: black;
+    background-color: var(--bg-top);
+    color: var(--ch-color);
 }
 
 .tiicon {
@@ -63,7 +55,6 @@ a:hover {
 
 .navbar {
     background-color: var(--bg-top);
-    color: rgb(0, 0, 0);
 }
 
 .noli:hover {

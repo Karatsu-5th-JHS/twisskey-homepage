@@ -12,8 +12,10 @@ URLの?以降で判断します
 MDファイルを作成し、その中に書き込みます  
 CSSを適応したい場合は中にHTMLを書き込みます
 
-### 使ったライブラリ
+### 使ったライブラリとか
 
 * [jQuery](https://jquery.com)
 
 * [Showdown](https://github.com/showdownjs/showdown)
+
+* [IBM Plex Sans JP](https://fonts.google.com/specimen/IBM+Plex+Sans+JP)
