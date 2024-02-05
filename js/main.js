@@ -12,3 +12,14 @@ $(window).on('load resize', function () {
         $(".tiicon").css("border-radius", "40px");
     }
 });
+
+//navbarの透過
+window.addEventListener("scroll", opacity_nav);
+var heig = 10;
+function opacity_nav() {
+  if (window.scrollY > heig) {
+    $('.navbar').addClass('shadow');
+  } else if (window.scrollY < heig) {
+    $('.navbar').removeClass('shadow');
+  }
+}

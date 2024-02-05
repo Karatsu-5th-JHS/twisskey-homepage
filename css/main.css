@@ -44,7 +44,9 @@ td {
     width: auto;
     height: auto;
     padding: 20px;
-    z-index: 1000;
+    z-index: 100;
+    opacity: 90%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 .tiicon {
@@ -88,4 +90,9 @@ td {
     text-align: center;
     width: fit-content;
     margin: auto;
+}
+
+.shadow {
+    opacity: 90%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
